@@ -25,6 +25,7 @@ checkSystem()
       .command('package', 'Package the current Electron application')
       .command('make', 'Generate distributables for the current Electron application')
       .command('start', 'Start the current Electron application')
+      .command('import', 'Attempts to navigate you through the process of importing an existing project to "electron-forge"')
       .parse(process.argv);
 
     config.reset();
